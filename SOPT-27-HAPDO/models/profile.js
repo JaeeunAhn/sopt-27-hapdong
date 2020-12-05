@@ -10,15 +10,15 @@ module.exports = (sequelize, DataTypes) => {
     },
     level: {
       type: DataTypes.STRING,
-      allowNull: true,
+      allowNull: false,
 		},
 		point: {
       type: DataTypes.INTEGER,
-      allowNull: true,
+      allowNull: false,
     },
 		coupon: {
       type: DataTypes.INTEGER,
-      allowNull: true,
+      allowNull: false,
     }
   }, {
     freezeTableName: true,
