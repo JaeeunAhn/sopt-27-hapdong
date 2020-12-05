@@ -11,16 +11,16 @@ const { resolve } = require('url');
 
 
 router.get('/banner', async (req, res) => {
-  try {
-      const banners = await Banner.findOne({
-          attributes: ['bannerImgUri']
-      });
+    try {
+        const banners = await Banner.findOne({
+            attributes: ['bannerImgUri']
+        });
       // status:200
-      return res.status(statusCode.OK).send(util.success(statusCode.OK, responseMessage.BANNER_READ_SUCCESS, banners));
-  } catch (error) {
-      console.error(error);
-      return res.status(statusCode.INTERNAL_SERVER_ERROR).send(util.fail(statusCode.INTERNAL_SERVER_ERROR, responseMessage.BANNER_READ_FAIL));
-  }
+    return res.status(statusCode.OK).send(util.success(statusCode.OK, responseMessage.BANNER_READ_SUCCESS, banners));
+    } catch (error) {
+        console.error(error);
+        return res.status(statusCode.INTERNAL_SERVER_ERROR).send(util.fail(statusCode.INTERNAL_SERVER_ERROR, responseMessage.BANNER_READ_FAIL));
+    }
 })
 
 router.get('/product', async (req, res) => {

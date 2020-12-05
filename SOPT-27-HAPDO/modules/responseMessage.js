@@ -13,4 +13,7 @@ module.exports = {
   BANNER_READ_SUCCESS: "배너 이미지 조회 성공",
   BANNER_READ_FAIL: "배너 이미지 가져오기 실패",
   NO_BANNER: "존재하지 않는 배너 이미지",
+
+  /* 프로필 */
+  PROFILE_READ_SUCCESS: "프로필 조회 성공",
 }
