@@ -16,8 +16,5 @@ db.Sequelize = Sequelize;
 db.Profile = require('./profile')(sequelize, Sequelize);
 db.Banner = require('./banner')(sequelize, Sequelize);
 db.Product = require('./product')(sequelize, Sequelize);
-/** 참고 CODE
- * db.User = require('./user')(sequelize, Sequelize);
-*/
 
 module.exports = db;
