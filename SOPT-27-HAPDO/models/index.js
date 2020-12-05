@@ -13,6 +13,7 @@ if (config.use_env_variable) {
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
+db.Profile = require('./profile')(sequelize, Sequelize);
 db.Banner = require('./banner')(sequelize, Sequelize);
 db.Product = require('./product')(sequelize, Sequelize);
 /** 참고 CODE
