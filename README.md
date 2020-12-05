@@ -3,7 +3,7 @@
 
 ## API 명세서
 
-[📑 API Document](https://github.com/JaeeunAhn/sopt-27-hapdong.wiki.git)
+[📑 API Document](https://github.com/JaeeunAhn/sopt-27-hapdong/wiki/27%EA%B8%B0-%ED%95%A9%EB%8F%99-%EC%84%B8%EB%AF%B8%EB%82%98)
 
 ## Sequelize Model
 
